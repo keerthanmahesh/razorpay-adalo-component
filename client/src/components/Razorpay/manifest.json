@@ -1,0 +1,17 @@
+{
+  "displayName": "Razorpay",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "resizeX": true,
+  "resizeY": true,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "Razorpay Payment"
+    }
+  ]
+}

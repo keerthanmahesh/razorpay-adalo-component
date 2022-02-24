@@ -1,0 +1,39 @@
+{
+  "name": "complab-components",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "CompLab Components",
+    "components": [
+      {
+        "name": "Razorpay",
+        "manifest": "./src/components/Razorpay/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.43",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "react-native-razorpay": "^2.2.8",
+    "react-native-responsive-fontsize": "^0.5.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-webview": "^11.14.3"
+  }
+}
